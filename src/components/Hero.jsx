@@ -51,9 +51,16 @@ const Hero = () => {
 
       {/* Buttons */}
       <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
-        <button className="bg-[rgb(33,150,243)] hover:bg-[#41474b] hover:text-white transition text-white px-5 py-2 rounded-md font-medium cursor-pointer">
+        <a
+          href="https://www.linkedin.com/in/jhariteshkumar/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[rgb(33,150,243)] hover:bg-[#41474b] hover:text-white transition text-white px-5 py-2 rounded-md font-medium cursor-pointer inline-block"
+        >
           Let's Talk
-        </button>
+        </a>
+
+
         <a
           href="https://drive.google.com/file/d/1Vy1owtOyU2X07joSD5HHQ5w6_DYOOAWe/view?usp=sharing"
           target="_blank"
