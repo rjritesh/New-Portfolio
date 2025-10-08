@@ -8,16 +8,16 @@ const Hero = () => {
       style={{ fontFamily: "Montserrat, sans-serif" }}
     >
       {/* Navbar */}
-      <header className="absolute top-0 w-full flex items-center justify-between px-8 sm:px-10 py-4 sm:py-6">
+      <header className="absolute top-0 w-full flex items-center justify-between px-8 sm:px-10 py-10 sm:py-6">
         {/* Left: Logo */}
         <div className="flex-shrink-0">
           <img src={Ind} alt="Logo" className="hidden sm:block w-8 h-8" />
         </div>
 
         {/* Center: Nav items */}
-        <nav className="absolute left-1/2 transform -translate-x-1/2 flex gap-4 sm:gap-8 text-gray-500 text-base sm:text-lg">
+        <nav className="absolute text-xl  left-1/2 transform -translate-x-1/2 flex gap-4 sm:gap-8 text-gray-500  sm:text-lg">
           <a href="#home" className="hover:text-[rgb(33,150,243)]">Home</a>
-          <a href="#about" className="hover:text-[rgb(33,150,243)]">About Me</a>
+          <a href="#about" className="hover:text-[rgb(33,150,243)]">About</a>
           <a href="#project" className="hover:text-[rgb(33,150,243)]">Projects</a>
           <a href="#Contact" className="hover:text-[rgb(33,150,243)]">Contact</a>
         </nav>
