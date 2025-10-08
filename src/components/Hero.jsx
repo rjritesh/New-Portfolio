@@ -19,7 +19,7 @@ const Hero = () => {
           <a href="#home" className="hover:text-[rgb(33,150,243)]">Home</a>
           <a href="#about" className="hover:text-[rgb(33,150,243)]">About Me</a>
           <a href="#project" className="hover:text-[rgb(33,150,243)]">Projects</a>
-          <a href="#contact" className="hover:text-[rgb(33,150,243)]">Contact</a>
+          <a href="#Contact" className="hover:text-[rgb(33,150,243)]">Contact</a>
         </nav>
 
         {/* Right: Button */}

@@ -1,4 +1,5 @@
 import AboutExperience from "./components/AboutExperience";
+import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 // import About from "./components/AboutExperience";
 import Hero from "./components/Hero";
@@ -8,11 +9,12 @@ import Socials from "./components/Socials";
 
 export default function App() {
   return (
-    <div className="bg-gray-100 text-white font-sans">
+    <div className="bg-gray-100  font-sans">
       <Hero />
       <Socials></Socials>
       <AboutExperience></AboutExperience>
       <Projects></Projects>
+      <ContactForm></ContactForm>
       <Footer></Footer>
     </div>
   );
