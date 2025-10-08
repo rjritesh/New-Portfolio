@@ -13,7 +13,7 @@ function ContactForm() {
   }
 
   return (
-    <section id='Contact' className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+    <section id='Contact' className="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center" style={{ fontFamily: "Montserrat, sans-serif" }}>
 
       {/* Heading outside the card */}
       <h2 className="text-3xl sm:text-3xl font-bold text-gray-800 mb-6 text-center">
@@ -74,7 +74,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="w-full py-2 bg-[rgb(33,150,243)] hover:bg-[#41474b] text-white font-semibold rounded-md shadow-sm transition text-sm cursor-pointer"
+            className="w-full py-3 bg-[rgb(33,150,243)] hover:bg-[#41474b] text-white font-semibold rounded-md shadow-sm transition text-sm cursor-pointer"
           >
             {state.submitting ? 'Sending...' : 'Send Message'}
           </button>
