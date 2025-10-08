@@ -1,5 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { useState, useEffect } from "react";
 import { quotes } from "../utils/constants"; // your quotes file
 
@@ -42,7 +41,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-2xl text-[rgb(33,150,243)]">
             <a href="https://github.com/rjritesh" target="_blank" rel="noopener noreferrer" title="GitHub"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/jhariteshkumar/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><FaLinkedin /></a>
-            <a href="mailto:imrjha07@gmail.com" title="Email"><MdOutlineMail /></a>
+            <a href="mailto:imrjha07@gmail.com" title="Email"><FaEnvelope /></a>
           </div>
         </div>
 
