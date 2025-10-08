@@ -40,7 +40,7 @@ const projects = [
     description:
       "Fully functional Instagram clone with authentication, posts, likes, and smooth navigation built with React.js and Firebase.",
     tech: ["React.js", "Firebase", "Chakra UI"],
-    github: "https://github.com/your-repo/instagram-clone",
+    github: "https://github.com/rjritesh/InstagramClone",
     // live: "https://your-live-demo.com/instagram-clone",
     image: "https://repository-images.githubusercontent.com/465897194/2c2b436f-5b34-4252-a778-0dc359fe0306",
   },

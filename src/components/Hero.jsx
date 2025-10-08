@@ -8,17 +8,22 @@ const Hero = () => {
       style={{ fontFamily: "Montserrat, sans-serif" }}
     >
       {/* Navbar */}
-      <header className="absolute top-0 w-full flex flex-wrap justify-between items-center px-8 sm:px-10 py-4 sm:py-6 mb-10">
-        <img src={Ind} alt="Logo" className="hidden sm:block w-8 h-8" />
+      <header className="absolute top-0 w-full flex items-center justify-between px-8 sm:px-10 py-4 sm:py-6">
+        {/* Left: Logo */}
+        <div className="flex-shrink-0">
+          <img src={Ind} alt="Logo" className="hidden sm:block w-8 h-8" />
+        </div>
 
-        <nav className="flex flex-wrap justify-center gap-4 sm:gap-8 text-gray-500 text-base sm:text-lg mt-2 sm:mt-0">
+        {/* Center: Nav items */}
+        <nav className="absolute left-1/2 transform -translate-x-1/2 flex gap-4 sm:gap-8 text-gray-500 text-base sm:text-lg">
           <a href="#home" className="hover:text-[rgb(33,150,243)]">Home</a>
           <a href="#about" className="hover:text-[rgb(33,150,243)]">About Me</a>
           <a href="#project" className="hover:text-[rgb(33,150,243)]">Projects</a>
           <a href="#contact" className="hover:text-[rgb(33,150,243)]">Contact</a>
         </nav>
 
-        <button className="hidden sm:flex items-center gap-2 px-4 sm:px-5 py-2 rounded-md text-sm font-medium text-gray-700 bg-gray-200 border border-gray-300 hover:bg-gray-200 hover:border-gray-400 transition mt-2 sm:mt-0">
+        {/* Right: Button */}
+        <button className="hidden sm:flex items-center gap-2 px-4 sm:px-5 py-2 rounded-md text-sm font-medium text-gray-700 bg-gray-200 border border-gray-300 hover:bg-gray-200 hover:border-gray-400 transition">
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
