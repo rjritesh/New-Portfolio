@@ -20,10 +20,10 @@ const Footer = () => {
       className="bg-gray-100 text-black py-8 mt-20 w-full border-t border-gray-300"
       style={{ fontFamily: "Montserrat, sans-serif" }}
     >
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center px-8 sm:px-10 gap-6">
-        
+      <div className="flex flex-col sm:flex-row justify-between items-center sm:items-center px-8 sm:px-10 gap-6 text-center">
+
         {/* Left: Random Quote */}
-        <div className="flex-1 text-sm text-left text-gray-400 italic">
+        <div className="flex-1 text-sm text-gray-400 italic">
           {quote && `"${quote}"`}
         </div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Right: Optional extra space or future content */}
+        {/* Right: Optional extra space */}
         <div className="flex-1"></div>
       </div>
 
@@ -54,6 +54,7 @@ const Footer = () => {
         &copy; {new Date().getFullYear()} Ritesh Kumar Jha. All rights reserved.
       </p>
     </footer>
+
   );
 };
 
