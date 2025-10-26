@@ -3,20 +3,20 @@ import { LuGithub } from "react-icons/lu";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiFirebase, SiRedux, SiNextdotjs, SiTensorflow, SiJavascript, SiHtml5, SiCss3, SiChakraui } from "react-icons/si";
 import ZaikaImg from "../assets/zaika.png"
-import cineo from "../assets/cineo.png"
+import cineverse from "../assets/cineverse.png"
 import vision from "../assets/vision.png"
 import currency from "../assets/CURRENCY.png"
 import multicalci from "../assets/multicalci.png"
 
 const projects = [
   {
-    title: "Cineo",
+    title: "CineVerse",
     description:
       "AI-powered movie recommendation platform with smooth navigation and optimized performance using Redux Toolkit and Firebase.",
     tech: ["React.js", "JavaScript", "Redux Toolkit", "TailwindCSS", "Firebase", "Gemini AI", "TMDB API"],
-    github: "https://github.com/rjritesh/Cineo-",
-    live: "https://cineo-alpha.vercel.app/",
-    image: cineo,
+    github: "https://github.com/rjritesh/CineVerse",
+    live: "https://cine-verse-five-smoky.vercel.app/",
+    image: cineverse,
   },
   {
     title: "Zaika",
