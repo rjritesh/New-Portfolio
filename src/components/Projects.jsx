@@ -6,6 +6,7 @@ import ZaikaImg from "../assets/zaika.png"
 import cineverse from "../assets/cineverse.png"
 import vision from "../assets/vision.png"
 import currency from "../assets/CURRENCY.png"
+import shopverse from "../assets/shopverse.png"
 import multicalci from "../assets/multicalci.png"
 
 const projects = [
@@ -35,7 +36,17 @@ const projects = [
     github: "https://github.com/rjritesh/VisionPulse",
     live: "https://vision-pulse.vercel.app/",
     image: vision,
-  }, {
+  },
+  {
+    title: "ShopVerse",
+    description:
+      "ShopVerse is a responsive and modern e-commerce web app. It supports product searching, sorting, and a shopping cart.",
+    tech: ["React.js", "JavaScript", "TailwindCSS", "Redux Toolkit", "Fake Store API"],
+    github: "https://github.com/rjritesh/ShopVerse",
+    live: "https://shop-verse-orpin.vercel.app/",
+    image: shopverse,
+  },
+  {
     title: "Instagram Clone",
     description:
       "Fully functional Instagram clone with authentication, posts, likes, and smooth navigation built with React.js and Firebase.",
