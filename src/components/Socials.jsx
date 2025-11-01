@@ -1,4 +1,5 @@
 import { Linkedin, Github, Mail } from "lucide-react";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Socials = () => {
   return (
@@ -32,6 +33,14 @@ const Socials = () => {
         className="text-gray-600 hover:text-blue-500 transition"
       >
         <Mail size={24} />
+      </a>
+      <a
+        href="https://wa.me/916290840066"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-blue-500 transition"
+      >
+        <BsWhatsapp size={24} />
       </a>
     </div>
   );
