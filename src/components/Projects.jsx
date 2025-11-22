@@ -56,6 +56,15 @@ const projects = [
     image: "https://repository-images.githubusercontent.com/465897194/2c2b436f-5b34-4252-a778-0dc359fe0306",
   },
   {
+    title: "FAMA BARBER",
+    description:
+      "A modern, responsive website for a barber shop, built with React and Tailwind CSS.",
+    tech: ["React.js", "TailwindCSS", "Vite"],
+    github: "https://github.com/rjritesh/Fama-Barber",
+    live: "https://fama-barber-two.vercel.app/",
+    image: "https://private-user-images.githubusercontent.com/97453505/443051849-bb64d39a-6fbb-40b2-b0fd-0906a919bfa6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM4MTE3MTksIm5iZiI6MTc2MzgxMTQxOSwicGF0aCI6Ii85NzQ1MzUwNS80NDMwNTE4NDktYmI2NGQzOWEtNmZiYi00MGIyLWIwZmQtMDkwNmE5MTliZmE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTIyVDExMzY1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEzNjg4YjI5MjQ4NTI1MGE5MGMxNzM2MTMwNjQzYTkxYzhmOWZlMzc3YWNjMmY4NzViM2Q5MmUwNDEwMjY0NzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LnHbrUvt7GFl2SCxHknSS8L7hGxdywiXXbDPEtn-Crk",
+  },
+  {
     title: "Multi Calculator",
     description:
       "Web calculator supporting basic, scientific, and BMI calculations with a clean interface built using HTML, CSS, and JavaScript.",
