@@ -9,6 +9,7 @@ import currency from "../assets/CURRENCY.png"
 import famabarber from "../assets/famabarber.png"
 import shopverse from "../assets/shopverse.png"
 import multicalci from "../assets/multicalci.png"
+import cafe from "../assets/cafe.png"
 
 const projects = [
   {
@@ -57,13 +58,22 @@ const projects = [
     image: "https://repository-images.githubusercontent.com/465897194/2c2b436f-5b34-4252-a778-0dc359fe0306",
   },
   {
-    title: "FAMA BARBER",
+    title: "Fama Barber",
     description:
       "A modern, responsive website for a barber shop, built with React and Tailwind CSS.",
     tech: ["React.js", "TailwindCSS", "Vite"],
     github: "https://github.com/rjritesh/Fama-Barber",
     live: "https://fama-barber-two.vercel.app/",
     image: famabarber,
+  },
+  {
+    title: "Brew & Bite Cafe",
+    description:
+      "Lightweight, responsive Indian cafe website showcasing coffee, snacks, desserts, and special combos with vibrant imagery and smooth UX.",
+    tech: ["React.js", "JavaScript", "TailwindCSS"],
+    github: "https://github.com/rjritesh/Modern-Cafe-Website",
+    live: "https://modern-cafe-website-dun.vercel.app/",
+    image: cafe,
   },
   {
     title: "Multi Calculator",
