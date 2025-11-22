@@ -3,8 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Socials = () => {
   return (
-    <div className="fixed top-1/2 right-1 transform -translate-y-1/2 flex flex-col gap-4 z-50
-                    hidden md:flex">
+    <div className="fixed top-1/2 right-1 transform -translate-y-1/2 flex flex-col gap-4 z-50 hidden md:flex">
       {/* LinkedIn */}
       <a
         href="https://www.linkedin.com/in/jhariteshkumar/"

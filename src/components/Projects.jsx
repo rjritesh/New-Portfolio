@@ -6,6 +6,7 @@ import ZaikaImg from "../assets/zaika.png"
 import cineverse from "../assets/cineverse.png"
 import vision from "../assets/vision.png"
 import currency from "../assets/CURRENCY.png"
+import famabarber from "../assets/famabarber.png"
 import shopverse from "../assets/shopverse.png"
 import multicalci from "../assets/multicalci.png"
 
@@ -62,7 +63,7 @@ const projects = [
     tech: ["React.js", "TailwindCSS", "Vite"],
     github: "https://github.com/rjritesh/Fama-Barber",
     live: "https://fama-barber-two.vercel.app/",
-    image: "https://private-user-images.githubusercontent.com/97453505/443051849-bb64d39a-6fbb-40b2-b0fd-0906a919bfa6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM4MTE3MTksIm5iZiI6MTc2MzgxMTQxOSwicGF0aCI6Ii85NzQ1MzUwNS80NDMwNTE4NDktYmI2NGQzOWEtNmZiYi00MGIyLWIwZmQtMDkwNmE5MTliZmE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTIyVDExMzY1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEzNjg4YjI5MjQ4NTI1MGE5MGMxNzM2MTMwNjQzYTkxYzhmOWZlMzc3YWNjMmY4NzViM2Q5MmUwNDEwMjY0NzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LnHbrUvt7GFl2SCxHknSS8L7hGxdywiXXbDPEtn-Crk",
+    image: famabarber,
   },
   {
     title: "Multi Calculator",
