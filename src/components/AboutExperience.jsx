@@ -58,18 +58,24 @@ const AboutExperience = () => {
           <h3 className="text-2xl font-bold text-gray-700 mb-4 sm:mb-6">Experience</h3>
 
           <div className="text-gray-700 leading-relaxed space-y-4 sm:space-y-6">
-
+            <div>
+              <h4 className="font-semibold text-lg text-gray-800">
+                MyProlist{" "}
+                <span className="text-sm text-gray-500">| Nov 2025 – Present | Kolkata</span>
+              </h4>
+              <p className="mt-1 text-sm sm:text-base">
+                <span className="font-semibold">Frontend Developer —</span>  Building Viza, an AI-powered platform for real-time translation, identity verification, and automatic agreement generation. Enhancing UX and enabling smooth multilingual collaboration across meetings, interviews, and training sessions.
+              </p>
+            </div>
             <div>
               <h4 className="font-semibold text-lg text-gray-800">
                 Cut Edge Technology Pvt. Ltd.{" "}
                 <span className="text-sm text-gray-500">| Sep 2025 - Oct 2025</span>
               </h4>
               <p className="mt-1 text-sm sm:text-base">
-                <span className="font-semibold">Web Developer Intern</span> — Designed and developed over 5 responsive web pages using{" "}
+                <span className="font-semibold">Web Developer Intern</span> — Built 5+ responsive pages using{" "}
                 <span className="font-medium text-gray-800">React.js</span> and{" "}
-                <span className="font-medium text-gray-800">Tailwind CSS</span>, maintaining 95% design accuracy.
-                Created 10+ reusable UI components and structured a modular codebase to speed up front-end development.
-                Enhanced cross-browser compatibility and optimized performance, improving page load speed by 15%.
+                <span className="font-medium text-gray-800">Tailwind CSS</span>. Developed reusable components and optimized performance, improving page load speed by 15%.
               </p>
             </div>
 
@@ -79,17 +85,15 @@ const AboutExperience = () => {
                 <span className="text-sm text-gray-500">| Feb 2025 - May 2025</span>
               </h4>
               <p className="mt-1 text-sm sm:text-base">
-                <span className="font-semibold">Frontend Developer Intern</span> — Collaborated in a 4-member team to build a{" "}
-                task management web app using{" "}
+                <span className="font-semibold">Frontend Developer Intern</span> — Contributed to a task management web app using{" "}
                 <span className="font-medium text-gray-800">React.js</span> and{" "}
-                <span className="font-medium text-gray-800">Tailwind CSS</span>.
-                Developed modular React components and a custom hook following SRP principles, cutting future dev time by 15%.
-                Actively contributed to UI/UX improvements and code reviews, gaining real-world team development experience.
+                <span className="font-medium text-gray-800">Tailwind CSS</span>. Built modular components, created a custom hook, and supported UI/UX improvements.
               </p>
             </div>
 
           </div>
         </div>
+
 
       </div>
     </section>
