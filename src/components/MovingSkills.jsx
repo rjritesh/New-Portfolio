@@ -1,24 +1,53 @@
 import React from "react";
 import {
-  SiReact, SiRedux, SiJavascript, SiTailwindcss, SiNextdotjs,
-  SiHtml5, SiCss3, SiFirebase, SiMysql, SiGit, SiGithub, SiFigma
+  SiReact,
+  SiRedux,
+  SiJavascript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
+  SiFirebase,
+  SiMysql,
+  SiGit,
+  SiGithub,
+  SiFigma,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiPostman,
 } from "react-icons/si";
+"react-icons/si";
 
 const skillsWithIcons = [
   { name: "React.js", icon: <SiReact /> },
   { name: "Redux", icon: <SiRedux /> },
   { name: "JavaScript", icon: <SiJavascript /> },
-  { name: "TailwindCSS", icon: <SiTailwindcss /> },
-  { name: "Next.js", icon: <SiNextdotjs /> },
+
+  // Styling
+  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
   { name: "HTML5", icon: <SiHtml5 /> },
   { name: "CSS3", icon: <SiCss3 /> },
-  { name: "Firebase", icon: <SiFirebase /> },
+
+  // Frameworks
+  { name: "Next.js", icon: <SiNextdotjs /> },
+
+  // Backend (MERN)
+  { name: "Node.js", icon: <SiNodedotjs /> },
+  { name: "Express.js", icon: <SiExpress /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
+
+  // Database & BaaS
   { name: "SQL", icon: <SiMysql /> },
+  { name: "Firebase", icon: <SiFirebase /> },
+
+  // Tools
+  { name: "Postman", icon: <SiPostman /> },
   { name: "Git", icon: <SiGit /> },
   { name: "GitHub", icon: <SiGithub /> },
   { name: "Figma", icon: <SiFigma /> },
-  // { name: "VS Code", icon: <SiVisualstudio /> },
 ];
+
 
 const MovingSkills = () => {
   return (

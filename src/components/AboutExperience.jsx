@@ -3,21 +3,33 @@ import MovingSkills from "./MovingSkills";
 
 const AboutExperience = () => {
   const skills = [
+    // Frontend
     "React.js",
     "Redux",
     "JavaScript",
-    "TailwindCSS",
-    "NextJs",
+    "Next.js",
     "HTML",
     "CSS",
-    "Firebase",
+    "Tailwind CSS",
+
+    // Backend (MERN)
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+
+    // Database & APIs
     "SQL",
-    "REST API",
+    "REST APIs",
+
+    // Tools
+    "Postman",
     "Git",
-    "Github",
+    "GitHub",
+    "Firebase",
     "Figma",
     "VS Code"
   ];
+
 
   return (
     <section
