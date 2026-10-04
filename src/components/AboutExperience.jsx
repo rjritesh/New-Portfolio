@@ -7,6 +7,7 @@ const AboutExperience = () => {
     "React.js",
     "Redux",
     "JavaScript",
+    "TypeScript",
     "Next.js",
     "HTML",
     "CSS",
@@ -44,13 +45,22 @@ const AboutExperience = () => {
         {/* About Me Card */}
         <div className="bg-white shadow-lg rounded-lg p-5 w-full md:w-1/2 flex flex-col">
           <h3 className="text-2xl font-bold text-gray-700 mb-4 sm:mb-6">About Me</h3>
-          <p className="text-gray-700 text-xs sm:text-base leading-relaxed sm:mb-6">
-            A B.Tech Computer Science graduate from
-            <span className="font-bold text-gray-600"> MAKAUT, West Bengal, Kolkata</span>.
-            I specialize in frontend development — building interactive, responsive web applications and turning ideas into real-world solutions.
-            Passionate about learning new technologies, exploring modern frameworks and libraries, and crafting great user experiences.
+          <p className="text-sm sm:text-base text-gray-600 leading-7">
+            I’m a B.Tech Computer Science graduate from{" "}
+            <span className="font-semibold text-gray-800">
+              MAKAUT, West Bengal
+            </span>{" "}
+            and a Frontend Developer working on enterprise-level digital products.
+            My work spans web and mobile applications, where I focus on building
+            responsive interfaces, reusable components, API integrations, and
+            intuitive product experiences.
           </p>
 
+          <p className="text-sm sm:text-base text-gray-600 leading-7 mt-1 mb-4">
+            I enjoy turning ideas and product requirements into clean, practical
+            solutions while continuously exploring modern technologies across the
+            frontend and full-stack ecosystem.
+          </p>
           {/* Skills Capsules */}
           <h3 className="text-md font-bold text-gray-700 mb-2">Skills</h3>
           <div className="flex flex-wrap gap-2 sm:gap-3 mt-2">
