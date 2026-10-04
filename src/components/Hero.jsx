@@ -4,8 +4,7 @@ import Ind from "../assets/world.png"
 const Hero = () => {
   return (
     <section id="home"
-      className="bg-gray-100 min-h-screen text-black flex flex-col items-center justify-center text-center px- sm:px-6 lg:px-8 pt-18"
-      style={{ fontFamily: "Montserrat, sans-serif" }}
+      className="bg-gray-100 min-h-screen text-black flex flex-col items-center justify-center text-center px-5 sm:px-6 lg:px-8 pt-18"
     >
       {/* Navbar */}
       <header className="absolute top-0 w-full flex items-center justify-between px-8 sm:px-10 py-10 sm:py-6">
@@ -60,7 +59,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/jhariteshkumar/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[rgb(33,150,243)] hover:bg-[#41474b] hover:text-white transition text-white px-5 py-2 rounded-md font-medium cursor-pointer inline-block"
+          className="button button--primary"
         >
           Let's Talk
         </a>
@@ -70,7 +69,7 @@ const Hero = () => {
           href="https://drive.google.com/drive/folders/1Iq1M4ekPdG9Nq0OQ3eODeMP7mMBED55p?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 px-6 py-2 rounded-md border border-[rgb(33,150,243)] text-[rgb(33,150,243)] font-medium hover:bg-[#41474b] hover:text-white transition hover:border-[#41474b] cursor-pointer"
+          className="button button--secondary"
         >
           My Resume
         </a>

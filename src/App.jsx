@@ -9,7 +9,7 @@ import Socials from "./components/Socials";
 
 export default function App() {
   return (
-    <div className="bg-gray-100  font-sans">
+    <div className="site-shell font-sans">
       <Hero />
       <Socials></Socials>
       <AboutExperience></AboutExperience>

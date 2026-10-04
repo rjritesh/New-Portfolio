@@ -76,8 +76,9 @@ const AboutExperience = () => {
                 <span className="text-sm text-gray-500">| Nov 2025 – Present | Kolkata</span>
               </h4>
               <p className="mt-1 text-sm sm:text-base">
-                <span className="font-semibold">Frontend Developer —</span>  Building Viza, an AI-powered platform for real-time translation, identity verification, and automatic agreement generation. Enhancing UX and enabling smooth multilingual collaboration across meetings, interviews, and training sessions.
+                <span className="font-semibold">Frontend Developer - </span> I build and contribute to enterprise-level products across web, mobile, and full-stack applications, turning ideas and requirements into reliable, intuitive, and scalable digital experiences.
               </p>
+
             </div>
             <div>
               <h4 className="font-semibold text-lg text-gray-800">
